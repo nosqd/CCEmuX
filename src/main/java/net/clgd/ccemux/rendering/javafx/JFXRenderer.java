@@ -64,9 +64,9 @@ public final class JFXRenderer implements Renderer {
 
 	private String generateTitle() {
 		if (!Strings.isNullOrEmpty(computer.getLabel())) {
-			return String.format("CCEmuX - \"%s\" ID %d", computer.getLabel(), computer.getID());
+			return String.format("CCEmuX (nosqd fork) - \"%s\" ID %d", computer.getLabel(), computer.getID());
 		} else {
-			return String.format("CCEmuX - Computer ID %d", computer.getID());
+			return String.format("CCEmuX (nosqd fork) - Computer ID %d", computer.getID());
 		}
 	}
 

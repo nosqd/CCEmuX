@@ -7,8 +7,8 @@ plugins {
 val ccVersion: String by extra
 
 allprojects {
-	group = "net.clgd"
-	version = "1.1.0" + if (System.getenv("GITHUB_SHA") == null) {
+	group = "cc.nsqd"
+	version = "1.2.0" + if (System.getenv("GITHUB_SHA") == null) {
 		""
 	} else {
 		"-${System.getenv("GITHUB_SHA")}"
