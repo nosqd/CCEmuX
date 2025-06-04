@@ -38,7 +38,7 @@ connected but it is true only for raw gpu usage, when you create window it will 
 gpu.setMonRes(w,h)
 ```
 
-### GPUImpl.createGpuView
+#### GPUImpl.createGpuView
 Arguments: `(none)`
 
 Return Value: `(none)`
